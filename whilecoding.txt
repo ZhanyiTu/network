@@ -1,0 +1,10 @@
+accept  参数1:socket s 套接字
+参数2: addr 类型是sockaddr 套接字地址和端口
+参数3: int类型 addrlen 应该是地址的长度
+len = sizeof(SOCKADDR);
+&len
+没有办法被 &sizeof(SOCKADDR)代替
+因为sizeof(SOCKADDR)是一个表达式 而&取地址符只能作用于左值 也就是变量
+重做的快捷键是ctrly
+没有自动补全的原因:没有启用intelliSence
+写到这种没完整代码的函数就看不懂了 直接跳过看程序了
