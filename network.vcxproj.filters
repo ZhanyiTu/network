@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="network.cpp">
+    <ClCompile Include="network2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

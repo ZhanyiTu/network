@@ -5,9 +5,7 @@
 
 int main()
 {
-    WORD wVersionRequested;//WORD结构的版本号
     WSADATA wsa;
-    int err;
 
 
     if (WSAStartup(MAKEWORD(1, 1), &wsa) != 0) {//加载Winsock库

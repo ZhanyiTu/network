@@ -8,3 +8,7 @@ len = sizeof(SOCKADDR);
 重做的快捷键是ctrly
 没有自动补全的原因:没有启用intelliSence
 写到这种没完整代码的函数就看不懂了 直接跳过看程序了
+b站有qt socket编程教程 C++开发WEB流程
+MAKEWORD将两个byte合并成一个word
+main函数必须返回值: 增加return 0语句
+计算机科学与技术 生产实习 U201514659 涂展翼 深圳市腾讯计算机有限公司 广东省深圳市 2019.7.4-2019.8.28 600?
