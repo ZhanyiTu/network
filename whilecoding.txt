@@ -11,4 +11,20 @@ len = sizeof(SOCKADDR);
 b站有qt socket编程教程 C++开发WEB流程
 MAKEWORD将两个byte合并成一个word
 main函数必须返回值: 增加return 0语句
-计算机科学与技术 生产实习 U201514659 涂展翼 深圳市腾讯计算机有限公司 广东省深圳市 2019.7.4-2019.8.28 600?
+sprintf_s(buffer,200, "%d",s)
+WSAAPI
+inet_ntop(
+    _In_                                INT             Family,
+    _In_                                const VOID *    pAddr,
+    _Out_writes_(StringBufSize)         PSTR            pStringBuf,
+    _In_                                size_t          StringBufSize
+    );
+#include文件可以通过点进去然后看文件名
+
+无法解析的外部符号?
+#pragma comment(lib, "Ws2_32.lib")
+通过添加lib库解决了
+
+为啥在46行语句卡住了
+因为connect在等待连接
+不知道为啥 问问别人吧
